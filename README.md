@@ -17,21 +17,23 @@
 ## 基板・回路図
 
 + 基板、回路図については[アナログ出力ジャイロセンサ 2021年版](https://github.com/ohguma/analog_gyro_2021)とかわらない。
++ パーツリストはこちら。[partscab.net アナログ出力ジャイロセンサ](https://partscabi.net/list/b1c6fa31-ba73-4adc-bf38-80c67f19f55f)
+  - MPU6050以外は秋月で購入可能
+  - MPU6050はamazon等で購入 
 
 ----
 
-## ユニバーサル基板で作成する場合。
+## ユニバーサル基板で作成する場合
 
 - ユニバーサル基板で作成する場合は、Uno等のArduinoのATMEGA328Pを差し替えてスケッチを書込む。この場合、2021年版パーツリストの下記が不要。
   - 328Pリセット回路用の抵抗10KΩ、セラミックコンデンサ 0.01μF(10nF) 103
-
-  - 回路図\
+- その場合の回路図\
     <img src="./documents/schema_universal.png">
-  - 配線図
-    - 部品面\
-      <img src="./documents/universal_omote.png">
-    - ハンダ面\
-      <img src="./documents/universal_ura.png">
+- 配線図
+  - 部品面\
+    <img src="./documents/universal_omote.png">
+  - ハンダ面\
+    <img src="./documents/universal_ura.png">
 
 ----
 2023-01-03 ohguma
